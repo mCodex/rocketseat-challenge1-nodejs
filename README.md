@@ -2,15 +2,17 @@
 
 ## 📖 Introduction
 
-The 1st challenge only requires an API which the user can does a simple CRUD. There isn't no DB, just a global array which is used as a database alike.
+The 1st challenge only requires an API which the user can does a simple CRUD. There isn't no DB, just a global array which is used as a database alike. 
 
-## Libraries:
+The instructions can be found [here](https://github.com/Rocketseat/bootcamp-gostack-desafio-01).
+
+## 📚 Libraries:
 
 * [ExpressJS](https://expressjs.com/) 
 * [HelmetJS](https://helmetjs.github.io/)
 * [Airbnb's ESlint](https://www.npmjs.com/package/eslint-config-airbnb)
 
-## API
+## ⚡️ API
 
 The main entity is `project` the following methods are implemented:
 
@@ -19,7 +21,7 @@ The main entity is `project` the following methods are implemented:
 
 ### Project
 
-#### Create
+* #### Create
 
 You can create a new one by doing:
 
@@ -35,7 +37,7 @@ Body:
 }
 ```
 
-#### Update
+* #### Update
 
 You can update a project just by passing its id to:
 
@@ -49,13 +51,13 @@ Body:
 }
 ```
 
-#### Delete
+* #### Delete
 
 You can delete a project just by passing its id to:
 
 `DELETE /project/:id`
 
-#### GET
+* #### GET
 
 You can list all projects:
 
@@ -63,6 +65,7 @@ You can list all projects:
 
 ### Tasks
 
+* #### Create
 You can add a taks into a project by doing:
 
 `POST /projects/:id/tasks`
